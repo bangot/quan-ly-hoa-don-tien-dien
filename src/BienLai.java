@@ -5,17 +5,51 @@ public class BienLai {
     private int chiSoMoi;
     private double soTienPhaiTra;
     private KhachHang khachHang ;
-    public BienLai(){
-        super();
+
+    public BienLai() {
+
     }
 
     public BienLai(int chiSoCu, int chiSoMoi, double soTienPhaiTra, KhachHang khachHang) {
-        super();
         this.chiSoCu = chiSoCu;
         this.chiSoMoi = chiSoMoi;
         this.soTienPhaiTra = soTienPhaiTra;
         this.khachHang = khachHang;
     }
+
+    public int getChiSoCu() {
+        return chiSoCu;
+    }
+
+    public void setChiSoCu(int chiSoCu) {
+        this.chiSoCu = chiSoCu;
+    }
+
+    public int getChiSoMoi() {
+        return chiSoMoi;
+    }
+
+    public void setChiSoMoi(int chiSoMoi) {
+        this.chiSoMoi = chiSoMoi;
+    }
+
+    public double getSoTienPhaiTra() {
+        return soTienPhaiTra;
+    }
+
+    public void setSoTienPhaiTra(double soTienPhaiTra) {
+        this.soTienPhaiTra = soTienPhaiTra;
+    }
+
+    public KhachHang getKhachHang() {
+        return khachHang;
+    }
+
+    public void setKhachHang(KhachHang khachHang) {
+        this.khachHang = khachHang;
+    }
+
+
 
     public void nhapBienLai(){
         khachHang= new KhachHang();
